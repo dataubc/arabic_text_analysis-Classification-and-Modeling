@@ -12,6 +12,7 @@ Create a conda virtual evironment using conda
 
 ```
 conda create -n <name-of-the-environment>
+coda activate <name-of-the-environment>
 ```
 
 The install the requirements using
