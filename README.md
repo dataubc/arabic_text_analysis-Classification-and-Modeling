@@ -1,4 +1,4 @@
-# Deploying Arabic Text Classification Model SGD Model Using Flask
+# Deploying Arabic Text Classification Model Using Flask
 
 
 ### Installation
