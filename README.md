@@ -3,7 +3,7 @@
 
 ### Data
 
-The arabic dataset used to train the model could be downloaded from [here](https://www.kaggle.com/datasets/saurabhshahane/arabic-classification/code)
+The arabic dataset used to train the model could be downloaded from [here](https://data.mendeley.com/datasets/v524p5dhpj/2)
 
 
 ### Installation

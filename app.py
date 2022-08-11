@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-filename= "pickle_model.pkl"
+filename= "sgd_model.pkl"
 
 with open(filename, 'rb') as file:
     count_vect, sgd_clf = pickle.load(file)
@@ -25,9 +25,9 @@ def predict():
 
     prediction = sgd_clf.predict(X_test_new_count)
 
-    output = round(prediction[0], 2)
+    output = prediction[0]
 
-    return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(output))
+    return render_template('index.html', prediction_text='This text belongs to {} '.format(output))
 
 
 if __name__ == "__main__":
